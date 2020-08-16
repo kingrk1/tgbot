@@ -57,8 +57,8 @@ from tg_bot.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # my telegram ID
-    OWNER_USERNAME = "SonOfLars"  # my telegram username
-    API_KEY = "your bot api key"  # my api key, as provided by the botfather
+    OWNER_USERNAME = "Hacker_king_18"  # my telegram username
+    API_KEY = "1361090800:AAHP-_nHyJRoftbsTB3otjlhbyj0VUGZbp0"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
@@ -71,9 +71,9 @@ If you can't have a config.py file (EG on heroku), it is also possible to use en
 The following env variables are supported:
  - `ENV`: Setting this to ANYTHING will enable env variables
 
- - `TOKEN`: Your bot token, as a string.
- - `OWNER_ID`: An integer of consisting of your owner ID
- - `OWNER_USERNAME`: Your username
+ - `TOKEN`: 1361090800:AAHP-_nHyJRoftbsTB3otjlhbyj0VUGZbp0
+ - `OWNER_ID`: 604255534
+ - `OWNER_USERNAME`: Hacker_king_18
 
  - `DATABASE_URL`: Your database URL
  - `MESSAGE_DUMP`: optional: a chat where your replied saved messages are stored, to stop people deleting their old 
